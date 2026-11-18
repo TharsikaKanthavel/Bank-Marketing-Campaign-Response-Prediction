@@ -1,0 +1,24 @@
+{
+  "split": {
+    "train": 0.6,
+    "validation": 0.2,
+    "test": 0.2
+  },
+  "split_sizes": {
+    "train": 24705,
+    "validation": 8238,
+    "test": 8238
+  },
+  "random_state": 42,
+  "final_model": "Tuned Gradient Boosting",
+  "best_params": {
+    "classifier__subsample": 0.8,
+    "classifier__n_estimators": 200,
+    "classifier__min_samples_leaf": 10,
+    "classifier__max_depth": 4,
+    "classifier__learning_rate": 0.05
+  },
+  "chosen_threshold": 0.55,
+  "test_roc_auc": 0.8153,
+  "test_pr_auc": 0.4876
+}
